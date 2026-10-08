@@ -1,0 +1,28 @@
+
+Step 1: Back up company_advanced to company_advanced.archive using gzip
+
+mongodump --db=company_advanced --archive=company_advanced.archive --gzip
+
+
+
+Step 2: Restore it into a new database named company_advanced_restore
+(Using --nsFrom and --nsTo to remap the namespace into the new database only)
+
+mongorestore --archive=company_advanced.archive --gzip --nsFrom="company_advanced.*" --nsTo="company_advanced_restore.*"
+
+
+
+Step 3: Verify the restored collection counts
+
+Option A: Run via terminal with mongosh eval
+mongosh company_advanced_restore --eval '
+print("employees count:", db.employees.countDocuments());
+print("departments count:", db.departments.countDocuments());
+print("sessions count:", db.sessions.countDocuments());
+'
+
+Option B: Run interactively inside mongosh
+use company_advanced_restore
+db.employees.countDocuments()
+db.departments.countDocuments()
+db.sessions.countDocuments()
