@@ -1,0 +1,11 @@
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/model/OrderPlacedEvent.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/consumer/NotificationConsumer.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/service/IdempotencyService.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/model/OrderPayload.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/EdaApplication.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/config/KafkaConfig.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/producer/OrderController.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/model/CreateOrderRequest.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/consumer/AnalyticsConsumer.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/producer/OrderProducer.java
+/Users/harshal.tarmale/Documents/T300_Backend/EDA/order-notification-system/src/main/java/com/example/eda/model/OrderItem.java
