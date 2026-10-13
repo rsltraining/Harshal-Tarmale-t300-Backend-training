@@ -1,0 +1,11 @@
+com/example/eda/config/KafkaConfig.class
+com/example/eda/consumer/AnalyticsConsumer.class
+com/example/eda/model/OrderItem.class
+com/example/eda/producer/OrderController.class
+com/example/eda/model/OrderPlacedEvent.class
+com/example/eda/consumer/NotificationConsumer.class
+com/example/eda/producer/OrderProducer.class
+com/example/eda/model/CreateOrderRequest.class
+com/example/eda/service/IdempotencyService.class
+com/example/eda/EdaApplication.class
+com/example/eda/model/OrderPayload.class
